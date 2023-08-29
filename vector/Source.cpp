@@ -110,6 +110,7 @@ void dinamic_massiv1() {
 	}
 
 	int r[100];
+	int* r = new int[column];
 	for (int i = 0; i < line; i++) {
 		r[i] = 0;
 		for (int j = 0; j < column; j++) {
